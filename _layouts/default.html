@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} &middot; {{ site.title }}</title>
+  <!-- LOCAL TEST ONLY: point the widget at the dev API on this machine.
+       A real site deletes this line and uses the production API. -->
+  <script>window.ECHOTHREAD_API_URL = 'http://localhost:8080';</script>
+</head>
+<body>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>

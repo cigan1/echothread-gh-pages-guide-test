@@ -1,0 +1,5 @@
+title: EchoThread GitHub Pages Guide Test
+description: A real GitHub Pages site used to verify the EchoThread GitHub Pages setup guide.
+url: https://cigan1.github.io
+baseurl: /echothread-gh-pages-guide-test
+markdown: kramdown
